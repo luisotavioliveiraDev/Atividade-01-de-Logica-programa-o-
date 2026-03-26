@@ -1,4 +1,4 @@
-Algoritmo "Quest„o 10"
+Algoritmo "Quest√£o 10"
 Var
    User, Usuario, senha, UserSenha:inteiro
 Inicio
