@@ -1,18 +1,18 @@
-Algoritmo "Quest„o 04"
+Algoritmo "Quest√£o 04"
 
 Var
    sFixo, vendas, comissao, sTotal, vendasMais,comissaoA, comissaoB :real
 
 
 Inicio
-   escreva("Digite seu Sal·rio fixo: ")
+   escreva("Digite seu Sal√°rio fixo: ")
    leia(sFixo)
    escreva("Digite o valor total de vendas efetuadas: ")
    leia(vendas)
    se(vendas <= 1500) entao
       comissao <- (vendas*3)/100
       sTotal <- comissao + sFixo
-      escreva("Total a receber È: ",sTotal)
+      escreva("Total a receber √©: ",sTotal)
    senao
       vendasMais <- vendas - 1500
       vendas <- 1500
@@ -20,6 +20,6 @@ Inicio
       comissaoB <- (vendasMais*5)/100
       comissao <- comissaoA + comissaoB
       sTotal <- sFixo + comissao
-      escreva("Total a receber È: ",sTotal)
+      escreva("Total a receber √©: ",sTotal)
    fimse
 Fimalgoritmo
