@@ -1,4 +1,4 @@
-Algoritmo "Questão 03"
+Algoritmo "QuestÃ£o 03"
 
 Var
    hExtra, horasTrab, hNormal :inteiro
@@ -6,13 +6,13 @@ Var
 
 
 Inicio
-   escreva("Informe suas horas trabalhadas no mês :")
+   escreva("Informe suas horas trabalhadas no mÃªs :")
    leia (horasTrab)
    escreva("Informe seu Salario por hora: ")
    leia (sHoras)
    se (horasTrab <= 160)entao
       Stotal <- horasTrab* sHoras
-      escreva("Valor a ser recebio é:", Stotal)
+      escreva("Valor a ser recebio Ã©:", Stotal)
    senao
       hExtra <- horasTrab - 160
       hNormal <- horasTrab - hExtra
@@ -20,6 +20,6 @@ Inicio
       sExtra <- (hExtra*sHoras) + acresimo
       sNormal <- hNormal*sHoras
       stotal <- sExtra + sNormal
-      escreva("Valor a ser recebio é:", Stotal)
+      escreva("Valor a ser recebio Ã©:", Stotal)
    fimse
 Fimalgoritmo
