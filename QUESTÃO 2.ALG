@@ -1,4 +1,4 @@
-Algoritmo "Questão 02"
+Algoritmo "QuestÃ£o 02"
 
 Var
    idade, anoatual, anoNasc:inteiro
@@ -10,9 +10,9 @@ Inicio
    leia(anoNasc)
    idade <- anoatual - anoNasc
    se (idade >= 16) entao
-      escreva("Você pode votar!")
+      escreva("VocÃª pode votar!")
    senao
-      escreva("Você não possui idade para votar!")
+      escreva("VocÃª nÃ£o possui idade para votar!")
    fimse
 
 
