@@ -1,10 +1,10 @@
-Algoritmo "Questão 01"
+Algoritmo "QuestÃ£o 01"
 
 Var
    macas:inteiro
    valor:real
 Inicio
-   escreva ("Quantas maçãs você deseja ?")
+   escreva ("Quantas maÃ§Ã£s vocÃª deseja ?")
    leia(macas)
    se(macas < 12)entao
       valor <- macas*1.30
